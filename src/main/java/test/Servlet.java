@@ -13,7 +13,7 @@ public class Servlet extends HttpServlet {
         resp.setContentType("text/html; charset = UTF-8");
         resp.setCharacterEncoding("UTF-8");
 
-        req.setAttribute("hello", "Hello centOS");
+        req.setAttribute("hello", "Hello centSOSI");
         getServletContext().getRequestDispatcher("/jsp/hello.jsp").forward(req, resp);
 
     }
